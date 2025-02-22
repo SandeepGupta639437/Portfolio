@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Gupta | Web & App Developer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sandeep Gupta</div>
+            <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero Section">
+        <div class="hero-text">
+            <h1>Hi, I'm <span class="typewriter" id="typewriter-name"></span></h1>
+            <h2>I am a <span class="typewriter" id="typewriter-domain"></span></h2>
+            <div class="hero-buttons">
+                <div class="social_media">
+                    <a target="_blank" href="https://x.com/_Sandeep_er?t=QQKANQVgviMdCUQBp4463w&s=08">
+                      <i class="fa-brands fa-x-twitter"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/sandeep-gupta-4399062a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://github.com/SandeepGupta639437"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                  <button id="view-projects-btn">View Projects</button>
+            </div>
+            <div class="inspiring-quote">
+                <p>"Code is like humor. When you have to explain it, it’s bad." – Cory House</p>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="Profile.jpg" alt="Sandeep Gupta's Profile Picture" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" aria-label="Projects">
+    <h1 class="section-title">My Projects</h1>
+
+    <!-- Project 1 -->
+    <div class="project">
+        <div class="project-image">
+            <img src="holalogo.png" alt="Hola - Social Media App" loading="lazy">
+        </div>
+        <div class="project-description">
+            <h2>Hola - Social Media App</h2>
+            <p>A social media app similar to Instagram, featuring a home page with 'All' and 'Following' sections, an explore page, user profiles, location-based posts, and real-time chat integration.</p>
+            <button class="project-btn"><a href="https://github.com/SandeepGupta639437/Hola">View Project</a></button>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project reverse">
+        <div class="project-image">
+            <img src="unitconverter.jpg" alt="Unit Converter App" loading="lazy">
+        </div>
+        <div class="project-description">
+            <h2>Unit Converter App</h2>
+            <p>An efficient unit converter that supports multiple conversions including length, weight, temperature, and volume, with a clean and responsive UI for easy usage.</p>
+            <button class="project-btn"><a href="https://github.com/SandeepGupta639437/Unit-Converter">View Project</a></button>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+        <div class="project-image">
+            <img src="restaurant.jpeg" alt="SandyFood's - Restaurant Website" loading="lazy">
+        </div>
+        <div class="project-description">
+            <h2>SandyFood's - Restaurant Website</h2>
+            <p>A responsive restaurant website featuring a menu section, customer reviews, and an interactive UI, built using HTML and CSS with modern design principles.</p>
+            <button class="project-btn"><a href="https://sandeepgupta639437.github.io/Restaurant-Site/">View Project</a></button>
+        </div>
+    </div>
+     <!-- Project 4 -->
+ <div class="project reverse">
+    <div class="project-image">
+        <img src="mineswipper.jpg" alt="mineswipper" loading="lazy">
+    </div>
+    <div class="project-description">
+        <h2>Mine Swipper</h2>
+        <p>An engaging stacking game where players must carefully balance their choices between gems and hidden mines. The challenge lies in selecting as many gems as possible without triggering a bomb. The score is determined by the number of gems successfully collected before hitting a mine.</p>
+        <button class="project-btn"><a href="https://sandeepgupta639437.github.io/Mine-Swipper-Game/">View Project</a></button>
+    </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" aria-label="Contact">
+    <h1 class="section-title">Get in Touch</h1>
+    <p class="contact-description">Have a project in mind or just want to say hi? Drop me a message!</p>
+    <form id="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" required>
+        <input type="email" name="user_email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-btn">Send Message</button>
+        <p id="form-status"></p>
+    </form>
+</section>
+
+
+
+    <script src="script.js" defer></script>
+</body>
+</html>
