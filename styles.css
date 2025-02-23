@@ -168,7 +168,7 @@ body {
 /* Projects Section */
 #projects {
     padding: 80px 10%;
-    color: #0f172a;
+    color: white;
 }
 
 .section-title {
@@ -210,7 +210,7 @@ body {
 .project-description h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #02153b;
+    color: white;
 }
 
 .project-description p {
